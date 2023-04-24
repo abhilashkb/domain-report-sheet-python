@@ -1,6 +1,6 @@
 # domain-report-sheet-python
 
-This Python script reads domain names from an Excel file and creates a table of domains with their registrar, domain expiry date, and important DNS records details. The script uses the `openpyxl` library to read data from the Excel file, and the `whois` library to fetch domain details.
+This Python script reads domain names from an Excel file and creates a output excel file with table of domains with their registrar, domain expiry date, and important DNS records details. The script uses the `openpyxl` library to read data from the Excel file, and the `whois` library to fetch domain details.
 
 | Domain Name|	HTTP status	|Registrar	|Expiry Date|	A record	|MX records|	TXT record|	DKIM record
 | ------ | ------ |------ | ------ |------ | ------ |------ | ------ |
